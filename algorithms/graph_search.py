@@ -12,12 +12,12 @@ class GraphSearch(rl_algorithm.Algorithm):
      1. it's memory, and recorded best action
      2. it's policy network
   """
-  def __init__(self):
-    self.policy = LinearPolicyNetwork()
-    self.memory = GraphMemory()
-  
-  def take_action(self, state):
-  
-  def update(self, state, action, reward, next_state, done):
-  
+    def __init__(self):
+        self.policy = LinearPolicyNetwork()
+        self.memory = GraphMemory()
+      
+    def take_action(self, state):
+    
+    def update(self, state, action, reward, next_state, done):
+    
   

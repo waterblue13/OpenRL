@@ -7,5 +7,5 @@ class Memory(object):
      As a result, this is where topological structure of states, and sequential nature of states play their role.
   """
   
-  def get_data(self, size):
-    raise NotImplementedError
+    def get_data(self, size):
+        raise NotImplementedError

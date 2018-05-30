@@ -8,10 +8,10 @@ class Algorithm(object):
       One for exploration policy, which interact with environment, aiming at collecting as much useful data as possible.
       Another for learning policy, which learn from data, aiming at get the best performance when testing on environment.
   """
-  def take_action(state):
-    raise NotImplementedError
-
-  def update(state, action, reward, next_state):
-    raise NotImplementedError
+    def take_action(state):
+        raise NotImplementedError
+  
+    def update(state, action, reward, next_state):
+        raise NotImplementedError
 
 
