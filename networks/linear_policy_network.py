@@ -1,3 +1,3 @@
-from policy_network import PolicyNetwork
+from . import policy_network
 
-class LinearPolicyNetwork(PolicyNetwork):
+class LinearPolicyNetwork(policy_network.PolicyNetwork):

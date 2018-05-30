@@ -1,5 +1,6 @@
+from . import rl_algorithm
 
-class GraphSearch(algorithm):
+class GraphSearch(rl_algorithm.Algorithm):
   """GraphSearch is a naive RL algorithm that designed for deterministic goal-seeking env with continuous/discrete states and discrete actions.
      GraphSearch takes each state as a node, and each action at a edge that leads current states to next states.
      A current estimated distance from the goal state is kept in each state node, along with the current estimated best action.

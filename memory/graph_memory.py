@@ -1,3 +1,3 @@
-from memory import Memory
+from . import memory
 
-class GraphMemory(Memory):
+class GraphMemory(memory.Memory):

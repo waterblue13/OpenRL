@@ -1,3 +1,4 @@
+
 class Algorithm(object):
   """ Template for all RL algorithms. It contains every function to interact with environment.
       This algorithm can
@@ -12,3 +13,5 @@ class Algorithm(object):
 
   def update(state, action, reward, next_state):
     raise NotImplementedError
+
+
