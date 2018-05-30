@@ -10,10 +10,11 @@ class PolicyNetwork(obj):
          a. by (state, action, reward/value) data tuples
          b. by gradient from ValueNetwork, such as in DDPG.
    """
-   
-   def generate_action(self, state):
-     raise NotImplementedError
-
-   
-   def update(self, state, action, weight):
-     raise NotImplementedError
+  def generate_action(self, state):
+    raise NotImplementedError
+    
+  def update(self, state, action, weight):
+    raise NotImplementedError
+    
+  def batch_update(self, batch_data):
+    raise NotImplementedError
