@@ -1,6 +1,6 @@
 
 class ValueNetwork(object):
-  """ ValueNetwork is used to keep record of the estimated value of each state, action pair under certain policy"""
+    """ ValueNetwork is used to keep record of the estimated value of each state, action pair under certain policy"""
   
     def get_value(self, state, action):
         raise NotImplementedError

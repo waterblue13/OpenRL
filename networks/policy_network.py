@@ -9,7 +9,7 @@ class PolicyNetwork(obj):
        2. update
            a. by (state, action, reward/value) data tuples
            b. by gradient from ValueNetwork, such as in DDPG.
-     """
+    """
     def generate_action(self, state):
         raise NotImplementedError
       
