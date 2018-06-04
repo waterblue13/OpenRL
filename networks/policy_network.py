@@ -1,5 +1,5 @@
 
-class PolicyNetwork(obj):
+class PolicyNetwork(object):
     """PolicyNetwork maps state to action, and can be trained by (state, action, reward/value) tuples or by gradient in a DDPG way.
        PolicyNetwork can be called in the following ways:
        1. generate_action
